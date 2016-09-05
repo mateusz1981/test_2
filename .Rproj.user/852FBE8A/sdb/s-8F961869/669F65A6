@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : ".libPaths(\"C:/Program Files/R/R-3.3.1/library\" )\ninstall.packages(\"bit\", lib = \"C:/Program Files/R/R-3.3.1/library\") \nlibrary(devtools) \ninstall_github(\"geoffjentry/twitteR\",  lib = \"C:/Program Files/R/R-3.3.1/library\") \ndevtools::install_github(\"drsimonj/corrr\",  lib = \"C:/Program Files/R/R-3.3.1/library\")\n\ninstall.packages(\"dplyr\", lib = \"C:/Program Files/R/R-3.3.1/library\")\nsession_info()\nlibrary(dplyr)\n.libPaths()\ndevtools::install_github(\"rstudio/addinexamples\", type = \"source\")\nlibrary(addinexamples)\ninstall.packages(\"gganimate\")\n\ninstall.packages(\"Amelia\")\nlibrary(Amelia)\nmissmap(df[1:2700,])\n\ninstall.packages(\"corrplot\")\n",
+    "created" : 1472796704203.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "221485370",
+    "id" : "669F65A6",
+    "lastKnownWriteTime" : 1472796733,
+    "last_content_update" : 1472796733188,
+    "path" : "~/key_file_the_way_to_install_packages.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
